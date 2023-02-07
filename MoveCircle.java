@@ -22,13 +22,16 @@ public class MoveCircle extends JFrame{
     private JButton moveleft;
     private JButton moveright;
     private GraphicScope graphicPanel;
+    private JButton Go_back;
     public MoveCircle(){
         super("Move a circle");
         JPanel buttonsPanel = new JPanel(new FlowLayout());
         moveleft = new JButton("Move Left");
         moveright = new JButton("Move Right");
+        Go_back = new JButton("go Back");
         buttonsPanel.add(moveleft);
         buttonsPanel.add(moveright);
+        buttonsPanel.add(Go_back);
         
         graphicPanel = new GraphicScope();
         
