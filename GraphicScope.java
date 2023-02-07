@@ -23,7 +23,7 @@ public class GraphicScope extends JPanel{
     }
     public void paintComponent(Graphics g){
         super.paintComponent(g);
-        this.setBackground(Color.lightGray);
+        this.setBackground(Color.blue);
         
         g.setColor(Color.white);
         g.fillRect(x-10, 10, 60, 40);
